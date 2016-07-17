@@ -1,0 +1,28 @@
+<resources>
+    <string name="facebook_app_id">248317668887853</string>
+
+    <string name="app_name">SocialContacts</string>
+    <string name="vk_login">Авторизация ВК</string>
+    <string name="vk_succeeded">Авторизация в ВК прошла успешно</string>
+    <string name="fb_login">Авторизация FB</string>
+    <string name="fb_succeeded">Авторизация в FB прошла успешно</string>
+    <string name="next">Продолжить</string>
+    <string name="auth_error">Ошибка авторизации</string>
+    <string name="social_accounts_connection">Подключение аккаунтов соцсетей</string>
+    <string name="unable_to_connect">Не удалось подключиться к %1$s</string>
+    <string name="social_connection_check">Проверка авторизации</string>
+    <string name="contacts_list">Список контактов</string>
+    <string name="social_auth">Подключение аккаунтов</string>
+    <string name="sync">Синхронизировать</string>
+    <string name="sorting">Сортировка</string>
+    <string name="fb_contacts_enabled">Контакты FB</string>
+    <string name="vk_contacts_enabled">Контакты VK</string>
+    <string name="sync_time">Синхронизация: %1$s</string>
+    <string name="contact_info">Просмотр контакта</string>
+    <string name="wrong_phone_format">Неверный формат телефона</string>
+
+    <!--User Info-->
+    <string name="bday">Дата рождения: %1$s</string>
+    <string name="email">email: %1$s</string>
+    <string name="phone">Тел: %1$s</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Switch
+        android:id="@+id/vk_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vk_contacts_enabled"
+        android:textSize="25sp"
+        android:lines="1"
+        android:ellipsize="middle"
+        android:padding="5dp"
+        android:checked="true"
+        />
+    <Switch
+        android:id="@+id/fb_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fb_contacts_enabled"
+        android:textSize="25sp"
+        android:lines="1"
+        android:ellipsize="middle"
+        android:padding="5dp"
+        android:checked="true"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/contacts_list"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:scrollbars="vertical"/>
+
+    <TextView
+        android:id="@+id/sync_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="15sp"
+        android:text="@string/sync_time"/>
+
+</LinearLayout>
